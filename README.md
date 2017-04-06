@@ -1,6 +1,6 @@
 # SQLcl Upgrader
 
-**note: Currently this is tied to a particular build number (4.2.0.17.096.0933). Some enhancements in the dependent project are needed for this to be useful **
+**note: Currently this is tied to a particular build number (4.2.0.17.096.0933). Some enhancements in the dependent project are needed for this to be useful.**
 
 ## Overview
 
