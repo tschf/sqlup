@@ -1,4 +1,9 @@
 #!/bin/bash
+# sqlup: SQLcl Upgrader
+# Fetches the lastest version of SQLcl and installs into /opt/sql
+# Depends:
+# * `odl` - oracle download utility
+# * `unzip`
 cd /tmp
 odl --accept-license --arch na --component sqlcl --version 4.2 --os na
 unzip sqlcl-*-no-jre.zip
