@@ -4,12 +4,17 @@
 # Depends:
 # * `odl` - oracle download utility
 # * `unzip`
+echo "Beginning installation/upgrade process of Oracle SQLcl"
 cd /tmp
 odl --accept-license --arch na --component sqlcl --version 4.2 --os na
-unzip sqlcl-*-no-jre.zip
+echo "Unzipping SQLcl"
+unzip sqlcl-*-no-jre.zip > /dev/null
+rm sqlcl-*-no-jre.zip
+echo "Deploying to /opt/sqlcl"
 echo "Pre-upgrade version:"
 sql -v
 sudo rm -rf /opt/sqlcl
 sudo mv sqlcl /opt/sqlcl/
 echo "Post-upgrade version:"
 sql -v
+echo "All finished"
