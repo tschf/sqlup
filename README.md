@@ -1,7 +1,5 @@
 # SQLcl Upgrader
 
-**note: Currently this is tied to a particular build number (4.2.0.17.096.0933). Some enhancements in the dependent project are needed for this to be useful.**
-
 ## Overview
 
 SQLcl is the next-gen command line interface to an Oracle database (superseeding SQL*Plus). Updates come often, so just want a tool to automate the upgrade process as much as possible. Utilises my odl utility, see that project for install insutructions.

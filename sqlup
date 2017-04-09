@@ -1,8 +1,7 @@
 #!/bin/bash
-
 cd /tmp
 odl --accept-license --arch na --component sqlcl --version 4.2 --os na
-unzip sqlcl-4.2.0.17.096.0933-no-jre.zip
+unzip sqlcl-*-no-jre.zip
 echo "Pre-upgrade version:"
 sql -v
 sudo rm -rf /opt/sqlcl
